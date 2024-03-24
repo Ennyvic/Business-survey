@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(202, 242, 255, 0.7);
+    background-blend-mode: multiply;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: 'poppins', sans-serif;
+}
+.heading{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+}
+#head{
+    font-size: 2rem;
+}
+#subhead{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 34px;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option2 select{
+    width: 98.5%;
+    height: 2.7rem;
+    position: relative;
+    top: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.box2{
+    width: 98.5%;
+    height: 2.8rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#content2{
+    margin-top: 10px;
+}
+#content2  textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    position: relative;
+    margin-left: 40%;
+    top: 11px;
+    background-color: rgba(18, 219, 78);
+    color: rgba(255, 255, 255);
+    margin-bottom: 10%;
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+textarea::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 70%;
+}
+input.larger{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 600px) {
+    form{
+        width: 70%;
+        margin: auto;
+    }
+}
